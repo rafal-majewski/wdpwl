@@ -21,7 +21,7 @@ timetable(ljubljana, zurich,
 
 timetable(zurich, london,
 	[ [ 9:00,  9:40, ba613, [mo,tu,we,th,fr,sa]],
-		[16:10, 16:55, sr806, [mo,th,we,th,fr,su]] ]).
+		[16:10, 16:55, sr806, [mo,tu,we,th,fr,su]] ]).
 
 % A connection Route from Place1 to Place2 is a list of flights PlaceA-PlaceB:Flight_number:Departure_time such that
 
