@@ -4,7 +4,7 @@ variables(TERM, [TERM]) :-
 	var(TERM), 
 	!.
 
-variables(TERM, []) :- 
+variables(TERM, []) :-
 	atomic(TERM), 
 	!.
 
